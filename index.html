@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image effect by css </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="" id="img" src="Md Mijanur Rahaman.jpeg" alt="Md Mijanur Rahaman">        
+    </div> 
+    <div class="bottoms">
+<button onclick="eff(0)">Originial</button>
+<button onclick="eff(1)">Brightness</button>
+<button onclick="eff(2)">Contrast</button>
+<button onclick="eff(3)">Grayscale</button>
+<button onclick="eff(4)">Huerotate</button>
+<button onclick="eff(5)">Low Opacity</button>
+<button onclick="eff(6)">Invert</button>
+<button onclick="eff(7)">Saturate</button>
+<button onclick="eff(8)">Sepia</button>
+    </div>
+
+    <div class="lefts">
+        
+        <input type='file'  id="myFile" onchange="readURL(this.value)" />
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
