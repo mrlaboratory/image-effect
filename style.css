@@ -1,0 +1,167 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+body{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:white;
+position:relative;
+
+}
+.container{
+  
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:50px;
+    border-radius:10px;
+    box-shadow: -3px -3px 5px gray,
+	  4px 4px 5px gray;
+   
+
+}
+
+
+img{
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    position:relative;
+    }
+.bottoms{  
+position:absolute;
+width:80px;
+height:300px;
+background:transparent;
+right:20px;
+border-radius:10px;
+background:white;
+
+}
+button{
+width:100%;
+height:35px;
+cursor:pointer;
+font-weight:bold;
+border:none;
+border-top:1px solid black;
+outline:none;
+background:white;
+transition:all 1s;
+
+
+}
+button:first-child{
+  border-radius:10px 10px 0 0;
+  outline:none;
+  border-top:none;
+}
+button:last-child{
+    border-radius:0 0 10px 10px;
+    outline:none;
+   
+  }
+  button:hover{
+  margin-left:-20px;
+  border-radius:10px 0 0 10px;
+  transition: all 0.5s;
+  }
+
+  button:active{
+box-shadow: 3px 3px 4px gray
+left:0;
+opacity:0%;
+transition:all 1s;
+
+;
+  }
+
+.effect0{
+
+  filter:none;
+}
+.effect1{
+  filter: brightness(150%);
+}
+.effect2{
+filter: contrast(180%);
+
+}
+.effect3{
+
+  filter: grayscale(100%);
+}
+.effect4{
+  filter: hue-rotate(180deg);
+}
+.effect5{
+
+  filter: opacity(50%);
+}
+.effect6{
+
+  filter: invert(100%);
+}
+.effect7{
+
+  filter: saturate(1.5);
+}
+.effect8{
+  filter: sepia(100%);
+
+}
+
+.active{
+
+  margin-left:-20px;
+  border-radius:10px 0 0 10px;
+  transition: all 0.5s;
+}
+
+.lefts{
+width:80px;
+height:80px;
+border-radius:50%;
+left:20px;
+position:absolute;
+box-shadow: 1px 1px 4px solid gray;
+text-align:center;
+font-weight:bold;
+cursor:pointer;
+background:url('upload.ico');
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: 3px 3px 4px gray
+
+
+
+}
+.lefts:hover{
+transform:scale(1.2, 1.2);
+transition:all 0.5s;
+
+}
+
+
+
+
+.lefts img{
+width:100%;
+height:100%;
+
+}
+#myFile{
+width:100%;
+height:100%;
+border-radius:50%;
+background:transparent;
+border:none;
+outline: none;
+cursor:pointer;
+}
