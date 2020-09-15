@@ -137,8 +137,8 @@ cursor:pointer;
 background:url('upload.ico');
 background-repeat: no-repeat;
 background-size: cover;
-box-shadow: 3px 3px 4px gray
-
+box-shadow: 3px 3px 4px #808080;
+transition:all 0.5s;
 
 
 }
@@ -164,4 +164,21 @@ background:transparent;
 border:none;
 outline: none;
 cursor:pointer;
+}
+
+.side-top{
+width:auto;
+height:auto;
+background:white;
+position:realtive;
+top:50px;
+left:50px;
+position:absolute;
+text-align:center;
+font-weight:bold;
+padding:20px;
+font-size:20px;
+border-radius:10px 0px 0px 0px;
+color:black;
+
 }
